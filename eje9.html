@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 9</title>
+</head>
+<body>
+Campos de texto
+El capo de texto,como bien indica su nombre, es el que nos permite inssertar texto en un formulario. El usuario pdra insertar texto visible sobre el campo.
+<input type="text" id="indentificador" size="50px" name="Nombre" value="texto por defecto"/>
+<br><br>
+Contraseñas
+Cuando un usuario inserta una contraseña dentro de un formulario necesitaremos, casi seguro, que el valor de la contraseña no aparezca y que por el contrario aparesca caracteres como asteriscos.
+<input type="password" id="identificador" size="25px" name="nombre" value="Escriba aqui"/>
+<br><br>
+Checkbox
+Un checkbox nos permite capturar un dato del usuario mediante un elemento de un check. El check puede tener dos valores, seleccionado o no seleccionado. El tipo del elemento input que utilizaremos sera "checkbox" Asi lo definiremos de la siguiente forma:
+<input type="checkbox" id="identificador" name="nombre" checked="checked"/>
+<input type="checkbox" id="identificador"  name="nombre" checked="cheched"/>
+<input type="checkbox" id="identificador"  name="nombre" checked="cheched"/>
+<br><br>
+Radios
+Con los elementos de radio podemos ofrecer un conjunto de opciones al usuario de tal manera que solo pueda elegir una de ellas. el tipo de elemnto input que utilizaremos es "radio".
+
+<input type="radio" id="identificador" value="menos 18" name="edad" />menos de 18
+<input type="radio" id="identificador"  value="18a30" name="edad" />18 a 30
+<input type="radio" id="identificador"  value="31a50" name="edad" />31 a 50
+<input type="radio" id="identificador" value="mas50" name="edad" />mas de 50
+<br><br>
+Ficheros
+cuando diseñamos un formulario es posible que nesesitemos enviar un fichero de datos  al servido. en este caso el campo de de entrega de datos no tiene que dar la posibilidad de acceder al sistema de fichero del dispositivo para poder selecccionar uno.
+<input type="file" id="identificador" value="valor" name="nombre" />
+<br><br>
+Campos Ocultos
+Otra de las opciones que no podemos encontrar dentro de los formularios es la necesidad de enviar la informacion oculta. Es decir, informacion que tiene que ir anexa al formulario que no nesecita ser introducida por el usuario. Para ello tenemos posibilidad de crear campos de data ocultos.
+<input type="hidden" id="identificador" value="valor" name="nombre" />
+<br><br>
+Imagenes
+Uno de los tipos de elementos input es el tipo "imagen" podemos crear un boton de envio que sea una imagen se cargara mediante el atributo src. La estructura para elementos input de este tipo es:
+<input type="image" src="img/rayo.jpg" name="edad" alt="texto-alternativo"/>
+<br><br>
+Areas de texto
+Un elemento algo mas avanzado que el campo de entrada de datos es el area de texto. Mendiante de area de texto tenemos la capacidad de queel usuario inserte una gran cantidad de datos y ademas que estos datos puedan estar en diferentes lineas.
+<textarea rows="numerofilas" cols="numerocolumnas" name="nombre"></textarea>
+</body>
+</html>
